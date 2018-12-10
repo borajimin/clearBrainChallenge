@@ -1,0 +1,6 @@
+.Board {
+  align-items: center;
+  display: flex;
+  flex-directoin: row;
+  align-items: flex-start;
+}

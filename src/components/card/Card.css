@@ -1,0 +1,14 @@
+.Card {
+  background-color: #0693E3;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1em;
+  margin-top: 0.25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input, button {
+  background-color: inherit;
+}

@@ -3,5 +3,21 @@ html {
 }
 
 .App {
+  color: white;
   text-align: center;
+}
+
+input, button {
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: white;  
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
