@@ -11,4 +11,13 @@
 
 input, button {
   background-color: inherit;
+  outline: none;
+}
+
+.Card .CreateInput::placeholder {
+  color: rgb(199, 216, 255);
+}
+
+.Card .CreateInput {
+  border-bottom: ghostwhite;
 }

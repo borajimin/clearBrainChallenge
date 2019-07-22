@@ -6,8 +6,8 @@ export class NewCard extends Component {
     const { onChangeNewCard, onCreateCard, newCard } = this.props;
     return (
       <div className="Card">
-        <input placeholder="Create a new card" onChange={onChangeNewCard} value={newCard} />
-        <button onClick={onCreateCard}>+</button>
+        <input className="CreateInput" placeholder="Create a new card" onChange={onChangeNewCard} value={newCard} />
+        <button className="CreateButton" onClick={onCreateCard}>+</button>
       </div>
     );
   }

@@ -10,8 +10,9 @@ export class NewList extends Component {
           value={newList}
           placeholder="Create a new list"
           onChange={onChangeNewList}
+          className="CreateInput"
         />
-        <button onClick={onCreateList}>+</button>
+        <button className="CreateButton" onClick={onCreateList}>+</button>
       </div>
     );
   }
